@@ -13,3 +13,6 @@ before_script:
 script:
   - cd sample
   - lein test
+  
+after_success:
+  - echo "after success"
